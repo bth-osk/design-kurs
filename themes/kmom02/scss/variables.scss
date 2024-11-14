@@ -1,0 +1,21 @@
+@use 'sass:color';
+
+// Typography-related
+$font-color: #333;
+$page-title-font-color: color.adjust($font-color, $lightness: -15%);
+$underline-color: rgba(6, 48, 71, 0.495);
+$footer-font-color: rgb(255, 255, 255);
+
+// General color scheme
+$accent-color: #ee6c4d;
+$header-background-color: rgba(98, 191, 249, 0.204);
+$body-background-color: rgb(255, 255, 255);
+$main-background-color: rgb(255, 255, 255);
+$footer-background-color: rgb(128, 128, 128);
+$border-color: rgba(129, 129, 129, 0.282);
+$footer-icon-color: rgb(255, 255, 255);
+
+// [Legacy]
+// $font-alternative-color: #fff;
+// $background-color: #3d5a80;
+// $background-alternative-color: #e0fbfc;

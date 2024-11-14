@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: $body-background-color;
+}
+
+.main {
+  max-width: 64rem;
+  padding: 2rem;
+  background-color: $main-background-color;
+  margin: 0 auto;
+  flex: 1;
+  line-height: 1.3;
+  font-size: 1.2rem;
+}
+
+.main img {
+  margin: auto;
+  display: block;
+}
+
+body p {
+  text-align: justify;
+}

@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $header-background-color;
+  border-bottom: solid 0.2rem $border-color;
+}
+
+.header .title {
+  text-decoration: none;
+  color: $page-title-font-color;
+  padding-left: 1rem;
+}
+
+.header .title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.header .title p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav .active a {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: $underline-color;
+  text-decoration-thickness: 20%;
+}
+
+.nav a:hover {
+  font-weight: 800;
+  color: $accent-color;
+}
