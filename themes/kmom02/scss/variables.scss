@@ -5,9 +5,11 @@ $font-color: #333;
 $page-title-font-color: color.adjust($font-color, $lightness: -15%);
 $underline-color: rgba(6, 48, 71, 0.495);
 $footer-font-color: rgb(255, 255, 255);
+$magic-number: 1.96rem;
 
 // General color scheme
 $accent-color: #ee6c4d;
+$accent-color-2: rgb(133, 133, 133);
 $header-background-color: rgba(98, 191, 249, 0.204);
 $body-background-color: rgb(255, 255, 255);
 $main-background-color: rgb(255, 255, 255);

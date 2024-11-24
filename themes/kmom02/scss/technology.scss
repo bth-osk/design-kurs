@@ -1,0 +1,39 @@
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.technology .article {
+  width: 75%;
+}
+
+.technology .menu {
+  width: 15%;
+}
+
+.menu-title {
+  font-size: 1.3rem;
+  color: $accent-color-2;
+}
+
+.menu a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: $font-color;
+}
+
+.menu .active {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: $underline-color;
+  text-decoration-thickness: 20%;
+}
+
+.menu a:hover {
+  font-weight: 800;
+  color: $accent-color;
+}

@@ -1,0 +1,45 @@
+.landing-page {
+  display: grid;
+  gap: $magic-number $magic-number;
+  margin-bottom: 2 * $magic-number;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.landing-page h1 {
+  grid-column: span 3;
+  justify-self: center;
+  font-size: $magic-number;
+  color: $accent-color-2;
+}
+
+.box {
+  border: 1px dashed $accent-color-2;
+  padding-left: $magic-number;
+}
+
+.box-header {
+  text-decoration: none;
+  color: $font-color;
+}
+
+.box-header:hover {
+  color: $accent-color;
+}
+
+.box:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px; //parameters from https://getcssscan.com/css-box-shadow-examples
+  border: 1px solid $accent-color;
+}
+
+.php {
+  grid-column: span 2;
+}
+
+.css {
+  grid-column: span 2;
+}
+
+.python {
+  grid-column: span 3;
+}
