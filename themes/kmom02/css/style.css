@@ -6483,6 +6483,7 @@ body {
 .main img {
   margin: auto;
   display: block;
+  max-width: 95%;
 }
 
 body p {
@@ -6680,12 +6681,18 @@ h6 {
   }
 }
 @media screen and (max-width: 900px) {
+  .footer {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
   .social a {
     text-decoration: none;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
   .footer p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 }
 @media screen and (max-width: 900px) {
