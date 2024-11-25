@@ -5,6 +5,7 @@ $font-color: #333;
 $page-title-font-color: color.adjust($font-color, $lightness: -15%);
 $underline-color: rgba(6, 48, 71, 0.495);
 $footer-font-color: rgb(255, 255, 255);
+$footer-font-size: 1rem;
 $magic-number: 1.96rem;
 
 // General color scheme
@@ -16,6 +17,9 @@ $main-background-color: rgb(255, 255, 255);
 $footer-background-color: rgb(128, 128, 128);
 $border-color: rgba(129, 129, 129, 0.282);
 $footer-icon-color: rgb(255, 255, 255);
+
+// Responsive reformat
+$responsive-cutoff: 900px;
 
 // [Legacy]
 // $font-alternative-color: #fff;

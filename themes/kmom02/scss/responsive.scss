@@ -1,13 +1,37 @@
+// Header
+@media screen and (max-width: $responsive-cutoff) {
+  .header {
+    padding: 0;
+    padding-left: 0.4rem;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+// Footer
+@media screen and (max-width: $responsive-cutoff) {
+  .social a {
+    text-decoration: none;
+    font-size: 2.8rem;
+  }
+  
+  .footer p {
+    font-size: 0.9 * $footer-font-size;
+  }
+}
+
 // Technologies page
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $responsive-cutoff) {
   .box-header {
     grid-column: span 3;
-    
   }
 }
 
 // Technology pages
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $responsive-cutoff) {
   .technology aside {
     display: none;
   }

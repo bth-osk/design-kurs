@@ -6518,7 +6518,10 @@ body p {
 .header {
   display: flex;
   flex-direction: row;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(98, 191, 249, 0.204);
@@ -6666,6 +6669,25 @@ h6 {
   color: #ee6c4d;
 }
 
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 0;
+    padding-left: 0.4rem;
+  }
+  .nav ul {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .social a {
+    text-decoration: none;
+    font-size: 2.8rem;
+  }
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
 @media screen and (max-width: 900px) {
   .box-header {
     grid-column: span 3;

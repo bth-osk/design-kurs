@@ -1,7 +1,10 @@
 .header {
   display: flex;
   flex-direction: row;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   justify-content: space-between;
   align-items: center;
   background-color: $header-background-color;
