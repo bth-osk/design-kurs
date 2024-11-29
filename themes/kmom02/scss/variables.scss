@@ -1,27 +1,62 @@
 @use 'sass:color';
 
+// KMOM04 complementary color scheme with help from https://color.adobe.com/create/color-wheel
+$accent-color: #85635e;
+$accent-color-2: rgb(133, 133, 133);
+$header-background-color: #88bfb7;
+$body-background-color: rgb(255, 255, 255);
+$main-background-color: rgb(255, 255, 255);
+$footer-background-color: #aa6a4f;
+$border-color: $accent-color-2;
+$footer-icon-color: rgb(255, 255, 255);
+$code-background-color: #f5f5f5;
+$code-outline-color: #ccc;
+
 // Typography-related
 $font-color: #333;
 $page-title-font-color: color.adjust($font-color, $lightness: -15%);
-$underline-color: rgba(6, 48, 71, 0.495);
+$underline-color: #55210b;
 $footer-font-color: rgb(255, 255, 255);
+$link-color: rgb(44, 146, 206);
 $footer-font-size: 1rem;
 $magic-number: 1.96rem;
 
-// General color scheme
-$accent-color: #ee6c4d;
-$accent-color-2: rgb(133, 133, 133);
-$header-background-color: rgba(98, 191, 249, 0.204);
-$body-background-color: rgb(255, 255, 255);
-$main-background-color: rgb(255, 255, 255);
-$footer-background-color: rgb(128, 128, 128);
-$border-color: rgba(129, 129, 129, 0.282);
-$footer-icon-color: rgb(255, 255, 255);
+// Adjusted non-typography colors
+$footer-button-color: color.adjust($underline-color, $lightness: -10%);
+$analysis-box-color: color.adjust($accent-color-2, $lightness: 20%);
+
+// Image handling
+$image-adjustment-body: brightness(1) contrast(1);
+$image-adjustment-header: $image-adjustment-body;
 
 // Responsive reformat
-$responsive-cutoff: 900px;
+$responsive-cutoff: 1100px;
 
 // [Legacy]
 // $font-alternative-color: #fff;
 // $background-color: #3d5a80;
 // $background-alternative-color: #e0fbfc;
+
+// KMOM04 Monochromatic color scheme with help from https://color.adobe.com/create/color-wheel
+// $accent-color: #6C58CD;
+// $accent-color-2: rgb(133, 133, 133);
+// $header-background-color: #87B5D5;
+// $body-background-color: rgb(255, 255, 255);
+// $main-background-color: rgb(255, 255, 255);
+// $footer-background-color: #265C80;
+// $border-color: rgba(129, 129, 129, 0.282);
+// $footer-icon-color: rgb(255, 255, 255);
+// $code-background-color: #f5f5f5;
+// $code-outline-color: #ccc;
+
+// - Previous light color scheme prior to KMOM04 - //
+// $accent-color: #ee6c4d;
+// $accent-color-2: rgb(133, 133, 133);
+// $header-background-color: rgba(98, 191, 249, 0.204);
+// $body-background-color: rgb(255, 255, 255);
+// $main-background-color: rgb(255, 255, 255);
+// $footer-background-color: rgb(160, 160, 160);
+// $border-color: rgba(129, 129, 129, 0.282);
+// $footer-icon-color: rgb(255, 255, 255);
+// $code-background-color: #f5f5f5;
+// $code-outline-color: #ccc;

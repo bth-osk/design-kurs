@@ -1,0 +1,44 @@
+.analysis-landing .box-header {
+  grid-column: span 3;
+}
+
+.box-header:hover {
+  color: $accent-color;
+}
+
+.analysis-landing .box {
+  border: 0;
+  border-bottom: 1px solid $analysis-box-color;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.analysis-landing .box h2 {
+  margin-bottom: 0.5rem;
+}
+
+.analysis-landing .box:hover {
+  box-shadow: none;
+  border-bottom: 1px solid $accent-color;
+  color: $accent-color;
+}
+
+.report {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.report .article {
+  flex: 1;
+  padding-left: 4rem;
+}
+
+.report td {
+  padding: 1rem;
+}
+
+.report tr {
+  font-size: 1.1rem;
+}

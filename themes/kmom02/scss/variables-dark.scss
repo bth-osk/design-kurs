@@ -1,0 +1,38 @@
+@use 'sass:color';
+
+// General color scheme
+$accent-color: #ee6c4d;
+$accent-color-2: rgb(133, 133, 133);
+$header-background-color: rgba(20, 41, 54, 0.5);
+$body-background-color: #1a1a1a;
+$main-background-color: $body-background-color;
+$footer-background-color: rgb(0, 0, 0);
+$border-color: rgba(23, 143, 208, 0.495);
+$footer-icon-color: rgb(53, 53, 53);
+$code-background-color: rgb(15, 15, 15);
+$code-outline-color: rgb(120, 119, 119);
+
+// Typography-related
+$font-color: #b8b8b8;
+$page-title-font-color: color.adjust($font-color, $lightness: -15%);
+$underline-color: rgba(98, 191, 249, 0.5);
+$footer-font-color: color.adjust($font-color, $lightness: -30%);
+$link-color: color.adjust($accent-color, $lightness: -20%);
+$footer-font-size: 1rem;
+$magic-number: 1.96rem;
+
+// Adjusted non-typography colors
+$footer-button-color: #cacaca;
+$analysis-box-color: color.adjust($accent-color-2, $lightness: -20%);
+
+// Image handling
+$image-adjustment-body: brightness(0.7) contrast(1.2);
+$image-adjustment-header: brightness(0.5) contrast(1.2);
+
+// Responsive reformat
+$responsive-cutoff: 1100px;
+
+// [Legacy]
+// $font-alternative-color: #fff;
+// $background-color: #3d5a80;
+// $background-alternative-color: #e0fbfc;

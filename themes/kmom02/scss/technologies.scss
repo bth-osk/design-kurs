@@ -16,6 +16,7 @@
 .box {
   border: 1px dashed $accent-color-2;
   padding-left: $magic-number;
+  color: $font-color;
 }
 
 .box-header {
@@ -30,6 +31,7 @@
 .box:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px; //parameters from https://getcssscan.com/css-box-shadow-examples
   border: 1px solid $accent-color;
+  color: $accent-color;
 }
 
 .php {

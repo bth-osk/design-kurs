@@ -49,3 +49,16 @@
   }
 }
 
+// Report pages
+@media screen and (max-width: $responsive-cutoff) {
+  .report aside {
+    display: none;
+  }
+
+  .report .article {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
