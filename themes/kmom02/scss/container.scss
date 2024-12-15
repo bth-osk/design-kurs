@@ -30,6 +30,7 @@ body {
 
 .main a {
   color: $link-color;
+  word-break: break-all;
 }
 
 body p {

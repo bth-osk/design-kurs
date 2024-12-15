@@ -23,6 +23,14 @@
   color: $accent-color;
 }
 
+.report .article {
+  width: 74%;
+}
+
+.report .menu {
+  width: 26%;
+}
+
 .report {
   display: flex;
   flex-direction: row;
@@ -32,13 +40,50 @@
 
 .report .article {
   flex: 1;
-  padding-left: 4rem;
+  padding-left: 2rem;
 }
 
-.report td {
+.report td:not(.color-table td) {
   padding: 1rem;
 }
 
-.report tr {
+.report tr:not(.color-table tr) {
   font-size: 1.1rem;
 }
+
+.report table:not(.color-table table) {
+  width: 100%;
+  border-collapse: collapse;
+  outline: 1px dashed $accent-color-2;
+}
+
+.report th:not(.color-table th) {
+  padding: 1rem;
+  font-weight: 900;
+}
+
+.report th:not(.color-table th):first-child,
+ 
+.report td:not(.color-table td):first-child {
+  white-space: nowrap;
+  font-weight: 900;
+  width: 10%;
+}
+
+.report th:not(.color-table th):not(:first-child),
+ 
+.report td:not(.color-table td):not(:first-child) {
+  width: auto;
+} 
+
+.report tbody tr:not(.color-table tr):nth-child(odd) {
+  background-color: $table-background-accent;
+}
+
+// Special styling for color table
+
+.report .color-table {
+  text-align: center;
+}
+
+// font-style: italic;

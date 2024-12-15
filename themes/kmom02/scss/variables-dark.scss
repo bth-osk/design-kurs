@@ -11,6 +11,7 @@ $border-color: rgba(23, 143, 208, 0.495);
 $footer-icon-color: rgb(53, 53, 53);
 $code-background-color: rgb(15, 15, 15);
 $code-outline-color: rgb(120, 119, 119);
+$table-background-accent: rgb(50, 12, 12);
 
 // Typography-related
 $font-color: #b8b8b8;
@@ -30,7 +31,8 @@ $image-adjustment-body: brightness(0.7) contrast(1.2);
 $image-adjustment-header: brightness(0.5) contrast(1.2);
 
 // Responsive reformat
-$responsive-cutoff: 1100px;
+$responsive-cutoff: 1000px;
+$gallery-grid-range: 200px;
 
 // [Legacy]
 // $font-alternative-color: #fff;

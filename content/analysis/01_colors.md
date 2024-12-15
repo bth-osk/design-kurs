@@ -35,64 +35,78 @@ Nedan summeras resultat i separata tabeller för typsnitt och färgscheman.
 
 *Typsnitt*
 
-| Sida  | Brödtext    | H1               | H2                    | H3        |
-| :---: | ----------- | ---------------- | --------------------- | --------- | 
-| A     | Graphik     | Graphik          | Graphik               | -         |
-| B     | Work Sans   | Permanent Marker | Permanent Marker      | Work Sans |
-| C (*) | Roboto Mono | ?Bryant?         | ?Roboto eller Bryant? | ?         |
+|          | Sida A  | Sida B           | Sida C (*)            |
+| :------: | :-----: | :--------------: | :-------------------: |
+| Brödtext | Graphik | Work Sans        | Roboto Mono           |
+| H1       | Graphik | Permanent Marker | ?Bryant?              |
+| H2       | Graphik | Permanent Marker | ?Roboto eller Bryant? |
+| H3       | -       | Work Sans        | ?                     |
 
-**Tabell 1:** *Typsnitt identifierade via CSS-avläsning för urvalda personsidor.*
+**Tabell 1.1:** *Typsnitt identifierade via CSS-avläsning för urvalda personsidor.*
 
 (*): Viss svårighet fanns för att tolka typsnittförekomst på denna sida. Ett eget typsnitt, "Bryant", användes och länkades till. Dock kunde "Inspect"-funktionen i Firefox ibland inte mappa vissa objekt till HTML-block och CSS-regler. Eventuellt kan detta ha berott på att texten var integrerad i grafiska objekt. CSS-reglerna för olika HTML-element använde sig även av "inherit"-hänvsningar, och dessa länkningar undersöktes inte i full detalj. Utifrån dessa komplikationer är den tekniska typsnitt-utvärderingen av i synnerhet sida C bristande.
 
 *Färgscheman - färgkoder*
 
-| Sida       | Allmän bakgrund | Bakgrund brödtext | Brödtext | Bakgrund alt. text | Alt. text | Accent 1 | Accent 2 |
-| :--------: | :-------------: | :---------------: |--------: | :----------------: | :-------: | :------: | :------: | 
-| **A**      | #FFFFFF         | #FFFFFF           | #303030  | #2B4169            | #E2E5EA   | #0F1224  | #88D0E8  |
-| **B**      | #FFFFFF         | #FFFFFF           | #616161  | #E5E7EB            | #535C69   | #FED96F  | #7D838F  |
-| **C** (**) | #00FF00         | #00FFFF           | #000000  | #BDFFBD            | #000000   | #FFFF00  | #FF00FF  |
+|                    | Sida A  | Sida B  | Sida C (**) |
+| :----------------: | :-----: | :-----: | :---------: |
+| Allmän bakgrund    | #FFFFFF | #FFFFFF | #00FF00     |
+| Bakgrund brödtext  | #FFFFFF | #FFFFFF | #00FFFF     |
+| Brödtext           | #303030 | #616161 | #000000     |
+| Bakgrund alt. text | #2B4169 | #E5E7EB | #BDFFBD     |
+| Alt. text          | #E2E5EA | #535C69 | #000000     |
+| Accent 1           | #0F1224 | #FED96F | #FFFF00     |
+| Accent 2           | #88D0E8 | #7D838F | #FF00FF     |
 
-**Tabell 2:** *Färgkoder identifierade, för urvalda personsidor, med ColorPicker webbläsartilläget. Utskrivna med hexadecimal kod.*
+**Tabell 1.2:** *Färgkoder identifierade, för urvalda personsidor, med ColorPicker webbläsartilläget. Utskrivna med hexadecimal kod.*
 
 (**): Färgschemat var i detta fall mycket blandat. Då dominerande färger utvärderades subjektivt finns stora möjligheter till alternativa tolkningar. I synnerhet just för sida C, där starka (och ett större antal än för sida A eller B) färgkontraster använts.
 
 *Färgscheman - färgrepresentation*
 
-<table style="border-spacing: 10px; border-collapse: separate">
+<table class="color-table" style="border-spacing: 10px; border-collapse: separate">
 <tr>
-<td> <b>Sida A:</b> 
-<td style="height: 50px; width: 50px; background-color: #FFFFFF; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #FFFFFF; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #303030; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #2B4169; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #E2E5EA; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #0F1224; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #88D0E8; outline-style: solid">
+<td> <b>Sida A</b> 
+<td> <b>Sida B</b> 
+<td> <b>Sida C</b> 
 </tr>
 <tr>
-<td> <b>Sida B:</b> 
-<td style="height: 50px; width: 50px; background-color: #FFFFFF; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #FFFFFF; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #616161; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #E5E7EB; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #535C69; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #FED96F; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #7D838F; outline-style: solid">
+<td style="height: 100px; background-color: #FFFFFF; outline-style: solid">
+<td style="height: 100px; background-color: #FFFFFF; outline-style: solid">
+<td style="height: 100px; background-color: #00FF00; outline-style: solid">
 </tr>
 <tr>
-<td> <b>Sida C:</b> 
-<td style="height: 50px; width: 50px; background-color: #00FF00; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #00FFFF; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #000000; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #BDFFBD; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #000000; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #FFFF00; outline-style: solid">
-<td style="height: 50px; width: 50px; background-color: #FF00FF; outline-style: solid">
+<td style="height: 100px; background-color: #FFFFFF; outline-style: solid">
+<td style="height: 100px; background-color: #FFFFFF; outline-style: solid">
+<td style="height: 100px; background-color: #00FFFF; outline-style: solid">
+</tr>
+<tr>
+<td style="height: 100px; background-color: #303030; outline-style: solid">
+<td style="height: 100px; background-color: #616161; outline-style: solid">
+<td style="height: 100px; background-color: #000000; outline-style: solid">
+<tr>
+<td style="height: 100px; background-color: #2B4169; outline-style: solid">
+<td style="height: 100px; background-color: #E5E7EB; outline-style: solid">
+<td style="height: 100px; background-color: #BDFFBD; outline-style: solid">
+</tr>
+<tr>
+<td style="height: 100px; background-color: #E2E5EA; outline-style: solid">
+<td style="height: 100px; background-color: #535C69; outline-style: solid">
+<td style="height: 100px; background-color: #000000; outline-style: solid">
+</tr>
+<tr>
+<td style="height: 100px; background-color: #0F1224; outline-style: solid">
+<td style="height: 100px; background-color: #FED96F; outline-style: solid">
+<td style="height: 100px; background-color: #FFFF00; outline-style: solid">
+</tr>
+<tr>
+<td style="height: 100px; background-color: #88D0E8; outline-style: solid">
+<td style="height: 100px; background-color: #7D838F; outline-style: solid">
+<td style="height: 100px; background-color: #FF00FF; outline-style: solid">
 </tr>
 </table>
 
-**Tabell 3:** *Utritade färger för materialet presenterat i tabell 2 (motsvarande placering av rader och kolumner).*
+**Tabell 1.3:** *Utritade färger för materialet presenterat i tabell 1.2 (motsvarande placering av rader och kolumner).*
 
 ## Analys
 

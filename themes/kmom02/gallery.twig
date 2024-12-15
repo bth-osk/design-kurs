@@ -1,0 +1,43 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main gallery" role="main">
+            
+        <h1>Galleri</h1>
+
+        <p>Gallrat innehåll nedan:</p>
+        <div class="img-gallery">
+            {% for pdbs in meta.pdbs %}
+                <a href="image/{{ pdbs.name }}.png" class={{ pdbs.name }} target="_blank">
+                    <picture>
+                        <source media="(min-width: 1500px)" srcset="image/{{ pdbs.name }}.png?w=600">
+                        <source media="(min-width: 1200px)" srcset="image/{{ pdbs.name }}.png?w=400">
+                        <source media="(min-width: 800px)" srcset="image/{{ pdbs.name }}.png?w=500">
+                        <source media="(min-width: 500px)" srcset="image/{{ pdbs.name }}.png?w=750">
+                        <img src="image/{{ pdbs.name }}.png?w=500" class="max-width" alt="{{ pdbs.name }}">
+                    </picture>
+                </a>
+            {% endfor %}
+        </div>
+
+        <p class="img-galler-ref">Ovanstående bilder skapades med <a href="https://github.com/schrodinger/pymol-open-source">öppnakällkodsversionen</a> (v. 2.5) av <a href="https://pymol.org/">PyMOL</a></p>
+
+        <p>PDB entries i ordningen de visats i: </p>
+        <div class="pdblist">
+            {% for pdbs in meta.pdbs %}
+                <a href="https://www.ebi.ac.uk/pdbe/entry/pdb/{{ pdbs.name }}" class=pdb-{{ pdbs.name }} target="_blank">{{ pdbs.name }}</a>    
+            {% endfor %}
+        </div>
+
+        {# Video content from markdown file #}
+
+        {{ content }}
+
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

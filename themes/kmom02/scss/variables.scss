@@ -11,6 +11,7 @@ $border-color: $accent-color-2;
 $footer-icon-color: rgb(255, 255, 255);
 $code-background-color: #f5f5f5;
 $code-outline-color: #ccc;
+$table-background-accent: rgb(242, 242, 242);
 
 // Typography-related
 $font-color: #333;
@@ -30,7 +31,8 @@ $image-adjustment-body: brightness(1) contrast(1);
 $image-adjustment-header: $image-adjustment-body;
 
 // Responsive reformat
-$responsive-cutoff: 1100px;
+$responsive-cutoff: 1000px;
+$gallery-grid-range: 150px;
 
 // [Legacy]
 // $font-alternative-color: #fff;
