@@ -10,7 +10,9 @@ Template: report
 
 Till kursmomentet KMOM5 skall laddningstid och användbarhet på utvalda webbsidor analyseras, inom uppgiften ["Utvärdera webbplatsers laddningstid och användbarhet (v2)"](https://dbwebb.se/uppgift/utvardera-webbplatsers-laddningstider-och-anvandbarhet-v2). 
 
+---
 ## Sidor att analysera
+---
 
 - Sida A - https://ericschmidt.com/
 - Sida B - https://pascalvangemert.nl/
@@ -20,7 +22,9 @@ Urvalet av webbsidor för analys är separat beskrivet på sidan "Urval". Likas�
 
 Utöver det allmäna urvalet av webbplatser att analysera, valdes (ifall möjligt) godtyckliga undersidor ut för hastighetsanalys.
 
+---
 ## Metodik
+---
 
 Följande verktyg användes
 
@@ -33,7 +37,9 @@ I Firefox Network Monitor räknades antalet laddade resurser som samtliga antal 
 
 Som mått för vilken sida som ansågs snabbast användes medelvärdena från mätningarna med Firefox Network Monitor.
 
+---
 ## Resultat
+---
 
 Resultaten från mätningarna finns i huvudsak återgivna i sidan **"02 Appendix - Rådata"**.
 
@@ -47,7 +53,9 @@ I tabell 2.1 återges medelvärdena för lokala mätningar av laddningstid för 
 
 **Tabell 2.1:** *Resultat från Firefox - Network Monitor [[#3]][3] för sidorna **A/B/C**. Laddningstid medelvärde (LTM) för tre enskilda mätningar.*
 
+---
 ## Diskussion
+---
 
 Jämförelse mellan sidorna försvårades av att sida C gav felmeddelande för flera individuella mått PageSpeed Insights försökte utvärdera. Detta gjorde att viktad betygsättning för att ge ett "Performance Score" [[#7]][7] inte kunde beräknas för sida C. Därmed användes det enklare måttet med laddningstidmätningar via Firefox Network Monitor som jämförelse mått för att ranka sidorna. Måttet är dock inte talande utifrån användarinteraktionen, då den skripttunga sida C må vara snabbast på att ladda in alla resurser, men med startanimationer vid sidladdningen kan användaren inte interagera med sidan förrän flera sekunder senare.
 
@@ -93,7 +101,9 @@ Prestandautvärdera enskilda javascript-moduler utifrån CPU- och RAM-anvädning
 
 Utan alltför omfattande funderingar i frågan, känner jag 5 sekunder som en "mjuk gräns" för en sida att laddas in utan att material finns i webbläsarens cache. Ingen av undersökta sidor kommer i närheten av detta gränsvärde. Jag värderar dock tid till "första pålitliga interaktion" högre än strikt laddningstid. Med tid till första pålitliga interaktion menar jag främst att det huvudsakliga skelettet av sidan är tillgängligt och interaktiva element är aktiva, samt att inga "Cumulative Layout Shift" sker som gör att interaktionen med sidan känns för tidig och opåltlig. Med det sagt enerveras jag betydligt mindre ifall vissa högupplösta bilder tar ytterligare tid att ladda in. Denna typ av beteende sker exempelvis på sida A, där textinnehåll och allmän layout är snabbt inladdat, men högupplösta bilder gradvis laddas in snyggt utan att några element flyttar på sig - utan att det upplevs som speciellt störande eller fördröjande för att ta del av sidan. 
 
+---
 ### Avslutande ord
+---
 
 Jämförelsen blev tyvärr begränsad av mängden tekniska skillnader mellan sidorna (främst sida A/B i jämförelse med C, likt tidigare). Mest generellt gällande trender för att förbättra prestanda, är dock att det tycks finnas möjligheter att överväga andra filformat för bilder, samt alternativa sätt att förmedla samma bildinformation som relativt storlekstung mp4-video.
 
@@ -103,7 +113,9 @@ Alla sidor upplevdes av mig personligen (och under rådande tekniska förutsätt
 
 /osau24
 
+---
 ## Referenser
+---
 
 1) https://pagespeed.web.dev/
 2) https://www.mozilla.org/en-US/firefox/

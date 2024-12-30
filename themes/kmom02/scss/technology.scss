@@ -1,3 +1,20 @@
+//Animation
+@keyframes techFader {
+  from {
+    color: $font-color;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  to {
+    color: $accent-color;
+    font-weight: 800;
+    font-size: 1rem;
+  }
+}
+
+//Normal stuff
+
 .technology {
   display: flex;
   flex-direction: row;
@@ -34,6 +51,5 @@
 }
 
 .menu a:hover {
-  font-weight: 800;
-  color: $accent-color;
+  animation: techFader 1s forwards;
 }

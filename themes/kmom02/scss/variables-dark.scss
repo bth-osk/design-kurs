@@ -17,8 +17,8 @@ $table-background-accent: rgb(50, 12, 12);
 $font-color: #b8b8b8;
 $page-title-font-color: color.adjust($font-color, $lightness: -15%);
 $underline-color: rgba(98, 191, 249, 0.5);
-$footer-font-color: color.adjust($font-color, $lightness: -30%);
-$link-color: color.adjust($accent-color, $lightness: -20%);
+$footer-font-color: color.adjust($font-color, $lightness: -10%);
+$link-color: color.adjust($accent-color, $lightness: -5%);
 $footer-font-size: 1rem;
 $magic-number: 1.96rem;
 

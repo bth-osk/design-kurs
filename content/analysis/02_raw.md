@@ -8,7 +8,9 @@ Template: report
 
 **Författare:** osau24
 
+---
 ## Sidor att analysera
+---
 
 - Sida A
     - A1 - https://ericschmidt.com/
@@ -23,7 +25,9 @@ Template: report
     - C2 - //
     - C3 - //
 
+---
 ## PageSpeed Insights
+---
 
 Analyser utförda 2024-12-14 - 2024-12-15.
 
@@ -75,9 +79,9 @@ Analyser utförda 2024-12-14 - 2024-12-15.
 
 **Tabell 2.5:** *Resultat från PageSpeedInsights [[#1]][1] för sidorna **B1-C1 - Mobile**, för en enskild mätning för respektive sida. First Contentful Paint (FCP) [[#2]][2], Largest Contentful Paint (LCP) [[#3]][3], Total Blocking Time (TBT) [[#4]][4], Cumulative Layout Shift (CLS) [[#5]][5], Speed Index (SI) [[#6]][6], Performance Score (PS) [[#7]][7], Accessibility Score (AS) [[#8]][8]. Vid felrapportering och/eller annan avsaknad av resultat, anges "inte tillämpligt" (I/T).*
 
--------
-
+---
 ## Firefox Network Monitor
+---
 
 Analyser utförda 2024-12-15.
 
@@ -103,7 +107,9 @@ Analyser utförda 2024-12-15.
 
 **Tabell 2.7:** *Resultat från Firefox - Network Monitor [[#9]][9] för sidorna **B1-C1**. Antal laddade resurser (ALR), total storlek (TS), laddningstid (LT, försök 1-3), laddningstid medelvärde (LTM) för LT1/LT2/LT3.*
 
+---
 ## Referenser
+---
 
 1) https://pagespeed.web.dev/
 2) https://web.dev/articles/fcp

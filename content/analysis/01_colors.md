@@ -10,7 +10,9 @@ Template: report
 
 Till kursmomentet KMOM4 skall färgval på utvalda webbsidor analyseras, inom uppgiften ["Utvärdera webbplatsers färgval och känslan de signalerar (v2)"](https://dbwebb.se/uppgift/utvardera-webbplatsers-fargval-och-kanslan-de-signalerar-v2). 
 
+---
 ## Sidor att analysera
+---
 
 - Sida A - https://ericschmidt.com/
 - Sida B - https://pascalvangemert.nl/
@@ -18,7 +20,9 @@ Till kursmomentet KMOM4 skall färgval på utvalda webbsidor analyseras, inom up
 
 Urvalet av webbsidor för analys är separat beskrivet på sidan "Urval". Likaså finns skärmbilder för respektive sida (tagna 2024-11-28) utritade på den separata sidan "Sidvyer". 
 
+---
 ## Metodik
+---
 
 Följande verktyg användes
 
@@ -29,7 +33,9 @@ För att identifiera typsnitt användes "Inspector"-funktionen i Firefox. Typsni
 
 Färgscheman dokumenterades, via ColorZilla i Firefox, utifrån vad som ansågs vara den dominerande bakgrundsfärg på sidan i allmänhet, bakgrundsfärg för huvudsaklig brödtext, färg på huvudsaklig brödtext, bakgrundsfärg och textfärg på alternativa textblock, och annan typ av accentfärg. Två accentfärger valdes ut, utifrån att de subjektivt uppfattades förekomma frekvent på respektive sida. "Point sample"-funktionen i ColorZilla användes för att avläsa färgen på specifika punkter, istället för medelvärden över flera pixlar. Valet att använda "Point sample" var främst utifrån färgavläsningar på mindre detaljer, med korta avstånd till bakgrundsfärgen.
 
+---
 ## Resultat
+---
 
 Nedan summeras resultat i separata tabeller för typsnitt och färgscheman.
 
@@ -108,7 +114,9 @@ Nedan summeras resultat i separata tabeller för typsnitt och färgscheman.
 
 **Tabell 1.3:** *Utritade färger för materialet presenterat i tabell 1.2 (motsvarande placering av rader och kolumner).*
 
+---
 ## Analys
+---
 
 Nedan följer en kort summering av mitt personliga intryck från respektive sida:
 
@@ -134,13 +142,17 @@ Det hade varit intressant att prova att göra mer CSS-driven analys av färgskal
 
 Samtliga webbsidor skulle jag personligen anta har det utseende och profil som dess skapare eftersökt. Alla tre sidor framstår för mig att ha ett väldigt aktivt val av design, och jag har inte sett någonting antydande på en oönskad designutkomst.
 
+---
 ### Avslutande ord
+---
 
 Trots att analysen av sidorna blev väldigt subjektiv, var det givande att påbörja denna process med att bekanta sig med ett begränsat urval av webbsidor för designanalys. Ifall sidorna hade valts om igen, hade troligtvis en webbsida valts för att vara en mer typisk "mörk-sida", då sida A-C är alla relativt ljusa sidor (även om startvyn på sida A ger intrycket av att vara med en relativt mörk grafisk profil). 
 
 /osau24
 
+---
 ## Referenser
+---
 
 1) https://www.mozilla.org/en-US/firefox/
 2) https://www.colorzilla.com/firefox/

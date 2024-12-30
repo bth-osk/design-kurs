@@ -1,3 +1,28 @@
+//Animation
+@keyframes iconFader {
+  from {
+    color: $footer-icon-color;
+    font-size: 3rem;
+  }
+
+  to {
+    color: $accent-color;
+    font-size: 3.4rem;
+  }
+}
+
+@keyframes buttonFader {
+  from {
+    color: $footer-button-color;
+    font-size: 1.5rem;
+  }
+
+  to {
+    color: $accent-color;
+    font-size: 1.7rem;
+  }
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -27,7 +52,7 @@
   }
 
   i:hover {
-    color: $accent-color;
+    animation: buttonFader 0.5s forwards;
   }
 }
 
@@ -39,6 +64,6 @@
   }
 
   i:hover {
-    color: $accent-color;
+    animation: iconFader 0.5s forwards;
   }
 }

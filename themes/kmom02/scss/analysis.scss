@@ -1,3 +1,18 @@
+//Animation
+@keyframes landingFader {
+  from {
+    color: $font-color;
+    font-weight: 700;
+    font-size: 100%;
+  }
+
+  to {
+    color: $accent-color;
+    font-weight: 800;
+    font-size: 125%;
+  }
+}
+
 .analysis-landing .box-header {
   grid-column: span 3;
 }
@@ -19,8 +34,7 @@
 
 .analysis-landing .box:hover {
   box-shadow: none;
-  border-bottom: 1px solid $accent-color;
-  color: $accent-color;
+  animation: landingFader 0.5s forwards;
 }
 
 .report .article {
@@ -85,5 +99,3 @@
 .report .color-table {
   text-align: center;
 }
-
-// font-style: italic;

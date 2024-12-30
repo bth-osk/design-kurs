@@ -10,7 +10,9 @@ Template: report
 
 Till kursmomenten KMOM04-06 ska analyser av publika webbsidor göras. Nedan presenteras hur sidorna valdes ut. Samma tre sidor används till samtliga analysmoment.
 
+---
 ## Urvalskriterier
+---
 
 Att utgå från tre personsidor valdes för att uppnå dels det generella kravet på tre olika sidor för analys, samt för att kunna återanvända samma sidor för samtliga analyser, där KMOM06 kräver personsidor. Urvalet gjordes subjektivt och nedanstående utgångspunkter agerade riktmärken:
 
@@ -22,7 +24,10 @@ Att utgå från tre personsidor valdes för att uppnå dels det generella kravet
 6) Minst en personsida ska vara för en person som är, eller har varit, i en ledande ställning inom något webb-fokuserat företag.
 7) Minst en personsida ska vara CV-orienterat för att marknadsföra personen i fråga.
 
+---
 ## Urval
+---
+
 Mål 1-5 var generella och kunde även agera exkluderande mellan olika övervägda kandidatsidor, men beskrivs inte ytterligare i detalj. Nedan presenteras istället motvieringar för att uppnå mål 6 och 7, i och med att dessa delar återspeglar det slutgiltiga urvalet av webbsidor.  
 
 ### Mål 6
@@ -38,13 +43,18 @@ Via listningsartiklen valdes sidan där "Pascal van Gemert" utgavs presentera si
 Från forumdiskussionen valdes sidan för "Bryant Smith" ut. Urvalet influerades av att inlägget där hans sida presenterades hade högst upprankning av användare/läsare (vid åtkomsttillfället), samt att utformningen och färgschemat kraftigt avvek från alla andra kandidater som övervägdes för analysuppgiften och därmed bedömdes vara ett kontrastrikt exempel att utvärdera.  
 **Webbsidan:** https://bryantcodes.art/
 
+---
 ## Överblick - utvalda sidor
+---
 
 - Sida A - https://ericschmidt.com/
 - Sida B - https://pascalvangemert.nl/
 - Sida C - https://bryantcodes.art/
 
+---
 ## Referenser
+---
+
 1) https://www.incomediary.com/rich-list-internet-entrepreneurs/ (besökt 2024-11-27)
 2) https://en.wikipedia.org/wiki/Eric_Schmidt (besökt 2024-11-27)
 3) https://who.is/whois/ericschmidt.com (besökt 2024-11-27)

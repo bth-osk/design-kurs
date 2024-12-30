@@ -1,12 +1,12 @@
 @use 'sass:color';
 
 // KMOM04 complementary color scheme with help from https://color.adobe.com/create/color-wheel
-$accent-color: #85635e;
-$accent-color-2: rgb(133, 133, 133);
+$accent-color: #511309;
+$accent-color-2: rgb(0, 50, 50);
 $header-background-color: #88bfb7;
 $body-background-color: rgb(255, 255, 255);
 $main-background-color: rgb(255, 255, 255);
-$footer-background-color: #aa6a4f;
+$footer-background-color: #95553a;
 $border-color: $accent-color-2;
 $footer-icon-color: rgb(255, 255, 255);
 $code-background-color: #f5f5f5;
@@ -18,7 +18,7 @@ $font-color: #333;
 $page-title-font-color: color.adjust($font-color, $lightness: -15%);
 $underline-color: #55210b;
 $footer-font-color: rgb(255, 255, 255);
-$link-color: rgb(44, 146, 206);
+$link-color: rgb(6, 102, 157);
 $footer-font-size: 1rem;
 $magic-number: 1.96rem;
 

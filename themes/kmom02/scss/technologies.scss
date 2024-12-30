@@ -1,3 +1,20 @@
+//Animation
+@keyframes techMatFader {
+  from {
+    color: $font-color;
+    font-size: 100%;
+    border: 1px dashed $accent-color-2;
+    box-shadow: none;
+  }
+
+  to {
+    color: $accent-color;
+    font-size: 125%;
+    border: 1px solid $accent-color;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px; //parameters from https://getcssscan.com/css-box-shadow-examples
+  }
+}
+
 .landing-page {
   display: grid;
   gap: $magic-number $magic-number;
@@ -24,14 +41,9 @@
   color: $font-color;
 }
 
-.box-header:hover {
-  color: $accent-color;
-}
-
 .box:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px; //parameters from https://getcssscan.com/css-box-shadow-examples
-  border: 1px solid $accent-color;
   color: $accent-color;
+  animation: techMatFader 1s forwards;
 }
 
 .php {

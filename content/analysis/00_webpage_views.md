@@ -6,27 +6,29 @@ Template: report
 
 # Sidvyer
 
+---
 ## Sida A - https://ericschmidt.com/
+---
 
 <br>
 
 <img src="../image/pageA_start.jpg" alt="SidaA_image" />
 
 <br>
-***  
-<br>
 
+---
 ## Sida B - https://pascalvangemert.nl/
+---
 
 <br>
 
 <img src="../image/pageB_start.jpg" alt="SidaA_image" />
 
 <br>
-***  
-<br>
 
+---
 ## Sida C - https://bryantcodes.art/
+---
 
 <br>
 
@@ -37,6 +39,5 @@ Template: report
 <img src="../image/pageC_start3.jpg" alt="SidaC_image3" />
 <br>
 <img src="../image/pageC_start4.jpg" alt="SidaC_image3" />
-<br>
-*** 
+
 <br> 
